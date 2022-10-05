@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@800&display=swap');
+
+html{
+scroll-behavior: smooth ;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gemuni+Libre','Montserrat';
+	background:url('https://cdn.discordapp.com/attachments/1005082839068446791/1027268939715195031/EtoileFlash.gif');
+	background-size: 100% auto;
+	background-position: center;
+}
+nav{
+
+    display : flex;
+    flex-wrap:wrap;
+    justify-content: center;
+	align-items: center;
+	border-bottom : 5px solid #6f6f6f;
+	font-size: 20px;
+
+}
+nav h1{
+color: darkgray;
+font-family: 'Gemunu Libre', 'Montserrat';
+font-size: 40px;
+
+
+
+
+}
+nav .onglet
+{
+
+margin-top: 3px; 
+margin-left: 300px;
+color :black;
+
+}
+nav.onglet a 
+{
+ text-decoration: none;
+ color :black;
+ margin-right: 10px;
+ border-bottom:  1px solid #000;
+ padding-bottom: 5px;
+
+
+}
+header{
+	display : flex;
+	flex-direction: column;
+    align-items: center;
+	background:url('https://cdn.discordapp.com/attachments/1005082839068446791/1027241505309589544/unknown.png');
+    color: white;
+	padding: 40px;
+}
+header h1
+{
+	font-family: 'Gemuni+Libre','Montserrat';
+    font-size: 50px;
+}
+header h4
+{
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+header button{
+padding : 10px 20px;
+background-color: whithe;
+color: #000;
+border : none;
+font-size: 20px;
+font-family: 'Gemuni+Libre','Montserrat';
+cursor : pointer;
+}
+
+.main{
+margin-top : 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.main .content .Card .right img{
+height: 300px;
+width : 400px;
+margin-top: 5px;
+
+
+}
+.main .content .Card{
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+margin-bottom: 20px;
+
+}
+.main .content .Card .left{
+flex: 0 0  30%;
+padding : 15px;
+background-color: #000;
+color: white;
+
+}
+main .content .Card.right{
+	flex: 0 0  70%;
+	
+	}
+
+	footer{
+    margin-top: 40px;
+	border-top: 5px solid #6f6f6f;
+	background-color: #000;
+	color : white;
+	padding: 30px 100px;
+
+
+	}
+
+	footer h1{
+		font-family: 'Gemuni+Libre','Montserrat';
+      border-bottom: 1px white;
+	  width : 20%;
+	  padding-bottom: 5px;
+	}
+	footer .services
+	{
+      margin-top: -10px;
+	  display:flex;
+	  flex-wrap: wrap;
+	
+
+	}
+	footer .services .service{
+margin-right: 30px;
+padding: 10px;
+	}
+	footer .services .service p{
+max-width: 300px;
+
+	}
+	footer #contact{
+color: rgb(181,181,181);
+		
+	}
+@media screen and (max-width:680px)
+{
+nav .onglet{
+margin-left : 0px;
+margin-bottom : 20px;
+
+}
+.main .Card{
+margin: 10px;
+
+}
+main .content .Card .right img {
+width: 200px;
+height: 100%;
+margin-top: 0px;
+
+
+}
+.main .content .Card{
+display: block;
+
+}
+footer {
+margin : 0px;
+
+}
+}
+
